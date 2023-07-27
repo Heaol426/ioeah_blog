@@ -186,3 +186,10 @@ layout:
   header_search: async/empty
   # 顶部菜单-主题切换部分
   header_theme: async/empty
+
+# 文章过期提醒
+notice_outdate:
+    enable: true
+    style: flat
+    limit_day: 90
+    position: top
