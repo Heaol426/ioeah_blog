@@ -178,3 +178,11 @@ categorie_card:
     enable: true
     len: 3
     list: ["备忘录", "记录类"]
+
+layout:
+  # 固定按钮模板
+  fixed_btn: async/fixed-btn
+  # 顶部菜单-查询部分
+  header_search: async/empty
+  # 顶部菜单-主题切换部分
+  header_theme: async/empty
