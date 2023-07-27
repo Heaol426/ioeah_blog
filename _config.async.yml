@@ -13,7 +13,7 @@ favicon:
   hideText: (●—●)喔哟，崩溃啦！
 
 assets:
-  internal_provider: unpkg # local | unpkg | jsdelivr
+  internal_provider: local # local | unpkg | jsdelivr
   third_party_provider: unpkg # unpkg | jsdelivr
 
 
@@ -47,8 +47,11 @@ top_bars:
     url: /
   - title: 归档
     url: /archives/
-  - title: 分类
-    url: /categories/
+    children:
+        - title: 分类
+          url: /categories/
+  - title: 友链
+    url: /links/
 
 sidebar:
   social: # 社交地址
@@ -67,21 +70,32 @@ banner:
     index:
         type: video
         bgurl:  //cdn.moji.com/websrc/video/autumn20190924.mp4
+        bannerTitle: 花径不曾缘客扫，<br>蓬门今始为君开。
+        bannerText: Hi my new friend!
+    archive:
+        type: img
+        bgurl: https://pic3.zhimg.com/v2-230b33bf409772ea9a62be47d25cf816_r.jpg
         bannerTitle: 树深时见鹿，<br>溪午不闻钟。
         bannerText: Hi my new friend!
+    links:
+        type: img
+        bgurl: https://p.qpic.cn/dnfbbspic/0/dnfbbs_dnfbbs_dnf_gamebbs_qq_com_forum_202005_14_073313l50ou4r0ry8kuy90.jpg/0
+        bannerTitle: 流光容易把人抛，<br>红了樱桃，绿了芭蕉。
+        bannerText: Hi my new friend!
+    
 
 footer:
-  powered:
+  powered: 
     enable: true
   beian:
-    enable: true
+    enable: false
     icp: 
-  copyrightYear:
+  copyrightYear: 2023
   live_time:
     enable: true
     prefix: footer.tips
     start_time: 07/26/2023 19:00:00
-  custom_text:
+  custom_text: Hosted by <a href="https://github.com" rel="noopener" target="_blank">Github Pages</a>
 
 rightside:
     aside: true
@@ -122,3 +136,48 @@ icons:
     # 代码复制
     copy: fas fa-copy
 
+toc:
+    enable: true
+    list_number: true
+    max_depth: 3
+    min_depth: 1
+
+post_pagination:
+    enable: true
+    type: large # large || small
+
+datetime_foramt:
+    post_card:
+        date: YY/MM/DD
+        time: HH:mm
+    post_info:
+        date: YY/MM/DD
+        time: HH:mm
+    archive:
+        date: YY/MM/DD
+        time: HH:mm
+
+search:
+  enable: true
+  type: local
+  preload: true
+  trigger: auto
+
+baidu_push: true
+
+creative_commons:
+  license: by-nc-sa
+  language: deed.zh
+  post: true
+  clipboard: true
+
+swup: true
+
+highlight:
+  title: mac
+  height_limit: 200
+
+categorie_card:
+    enable: true
+    len: 3
+    list: ["备忘录", "记录类"]
