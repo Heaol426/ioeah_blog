@@ -1,5 +1,5 @@
 ---
-title: links
+title: 友链
 date: 2023-07-26 23:55:43
 layout: links
 banner:
