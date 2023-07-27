@@ -23,7 +23,7 @@ cdn:
     head:
     base:
     async:
-    defer: /_vercel/insights/sricpt.js
+    defer: /_vercel/insights/script.js
 
 user:
   name: 云深不知雀
