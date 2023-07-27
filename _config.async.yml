@@ -23,14 +23,14 @@ cdn:
     head:
     base:
     async:
-    defer:
+    defer: /_vercel/insights/sricpt.js
 
 user:
   name: 云深不知雀
   first_name: 不知雀
   last_name: 云深
   email: heaol426@163.com
-  domain: 
+  domain: www.ioeah.top
   avatar: /img/heao.jpg
   describe: 网站简介。
   ruleText: 暂不接受个人博客以外的友链申请，确保您的网站内容积极向上，文章至少30篇，原创70%以上，部署HTTPS。
@@ -47,9 +47,8 @@ top_bars:
     url: /
   - title: 归档
     url: /archives/
-    children:
-        - title: 分类
-          url: /categories/
+  - title: 分类
+    url: /categories/
   - title: 友链
     url: /links/
 
@@ -58,8 +57,8 @@ sidebar:
     - name: github
       icon: fab fa-github
       url: https://github.com/Heaol426
-  typedTextPrefix: I`m
-  typedText: [" a wayfarer"]
+  typedTextPrefix: 
+  typedText: ["I'm a wayfarer","人生如逆旅，我亦是行人"]
   info: # 个人信息
       - key: 地址
         val: 火星&&木卫六
@@ -95,7 +94,7 @@ footer:
     enable: true
     prefix: footer.tips
     start_time: 07/26/2023 19:00:00
-  custom_text: Hosted by <a href="https://github.com" rel="noopener" target="_blank">Github Pages</a>
+  custom_text: 
 
 rightside:
     aside: true
