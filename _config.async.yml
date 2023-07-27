@@ -20,7 +20,6 @@ assets:
 cdn:
   css:
   - //npm.elemecdn.com/lxgw-wenkai-webfont@1.7.0/style.css
-  - /assets/css/fonts.css
   js:
     head:
     base:
