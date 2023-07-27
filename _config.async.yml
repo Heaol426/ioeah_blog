@@ -19,6 +19,8 @@ assets:
 
 cdn:
   css:
+  - //npm.elemecdn.com/lxgw-wenkai-webfont@1.7.0/style.css
+  - /assets/css/fonts.css
   js:
     head:
     base:
@@ -47,8 +49,11 @@ top_bars:
     url: /
   - title: 归档
     url: /archives/
-  - title: 分类
-    url: /categories/
+    children: 
+        - title: 分类
+          url: /categories/
+        - title: 标签
+          url: /tags/
   - title: 友链
     url: /links/
 
@@ -75,13 +80,7 @@ banner:
         type: img
         bgurl: https://pic3.zhimg.com/v2-230b33bf409772ea9a62be47d25cf816_r.jpg
         bannerTitle: 树深时见鹿，<br>溪午不闻钟。
-        bannerText: Hi my new friend!
-    links:
-        type: img
-        bgurl: https://p.qpic.cn/dnfbbspic/0/dnfbbs_dnfbbs_dnf_gamebbs_qq_com_forum_202005_14_073313l50ou4r0ry8kuy90.jpg/0
-        bannerTitle: 流光容易把人抛，<br>红了樱桃，绿了芭蕉。
-        bannerText: Hi my new friend!
-    
+        bannerText: THE ARTICLE ARCHIVE
 
 footer:
   powered: 
