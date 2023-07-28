@@ -88,7 +88,7 @@ sidebar:
   typedText: ["I'm a wayfarer", "人生如逆旅，我亦是行人"]
   info: # 个人信息
     - key: 地址
-      val: 火星&&木卫六
+      val: 火星&&&木卫六
     - key: 年龄
       val: undefined
 
