@@ -26,12 +26,13 @@ assets:
 
 cdn:
   css:
+    # 霞骛文楷字体
     - //npm.elemecdn.com/lxgw-wenkai-webfont@1.7.0/style.css
   js:
     head:
     base:
     async:
-    defer: /_vercel/insights/script.js
+    defer: /_vercel/insights/script.js # vercel注入监控访问
 
 user:
   name: 云深不知雀
@@ -40,7 +41,7 @@ user:
   email: heaol426@163.com
   domain: www.ioeah.top
   avatar: /img/heao.jpg
-  describe: 网站简介。
+  describe: 我们都生活在阴沟里，但仍有人仰望星空。
   ruleText: 暂不接受个人博客以外的友链申请，确保您的网站内容积极向上，文章至少30篇，原创70%以上，部署HTTPS。
 
 #  导航栏 TopBars
