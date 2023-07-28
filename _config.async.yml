@@ -22,7 +22,7 @@ assets:
     # imalun的图标库
     - //at.alicdn.com/t/c/font_3637590_i4hyyea14ur.js
     # ioeah的图标库
-    - //at.alicdn.com/t/c/font_4185394_lhq7d2a47x.js
+    - //at.alicdn.com/t/c/font_4185394_vt5zgr3q4bk.js
 
 cdn:
   css:
@@ -63,6 +63,8 @@ top_bars:
         url: /tags/
   - title: 友链
     url: /links/
+  - title: 关于
+    url: /about/
 
 sidebar:
   social: # 社交地址
@@ -72,12 +74,16 @@ sidebar:
     - icon: icon-gitee
       url: https://gitee.com/heao426
       name: Gitee
-    - icon: icon-weibo
-      url: https://weibo.com/u/5848971319
-      name: Weibo
+    - icon: icon-bilibili-fill
+      url: https://space.bilibili.com/1058560548
+      name: Bilibli
     - icon: icon-zhihu
       url: https://www.zhihu.com/people/xiao-hao-11-44-65
       name: Zhihu
+    - icon: icon-weibo
+      url: https://weibo.com/u/5848971319
+      name: Weibo
+
   typedTextPrefix:
   typedText: ["I'm a wayfarer", "人生如逆旅，我亦是行人"]
   info: # 个人信息
@@ -89,7 +95,8 @@ sidebar:
 banner:
   index:
     type: video
-    bgurl: //cdn.moji.com/websrc/video/autumn20190924.mp4
+    bgurl: /img/video/indexCover.mp4
+    # //cdn.moji.com/websrc/video/autumn20190924.mp4
     bannerTitle: 花径不曾缘客扫，<br>蓬门今始为君开。
     bannerText: Hi my new friend!
   archive:
