@@ -18,7 +18,11 @@ assets:
   icons:
     type: symbol
     css:
-    js: //at.alicdn.com/t/c/font_3637590_i4hyyea14ur.js
+    js: 
+    # imalun的图标库
+    - //at.alicdn.com/t/c/font_3637590_i4hyyea14ur.js
+    # ioeah的图标库
+    - //at.alicdn.com/t/c/font_4185394_lhq7d2a47x.js
 
 cdn:
   css:
@@ -68,8 +72,11 @@ sidebar:
       url: https://gitee.com/heao426
       name: Gitee
     - icon: icon-weibo
-      url: https://weibo.com/
+      url: https://weibo.com/u/5848971319
       name: Weibo
+    - icon: icon-zhihu
+      url: https://www.zhihu.com/people/xiao-hao-11-44-65
+      name: Zhihu
   typedTextPrefix:
   typedText: ["I'm a wayfarer", "人生如逆旅，我亦是行人"]
   info: # 个人信息
