@@ -3,11 +3,11 @@ theme:
   default: style-light #style-light：亮色模式 ; style-dark：暗色模式 ; auto：跟随系统选择
 
 favicon:
-  logo: log.svg
-  icon16: log.svg
-  icon32: log.svg
-  appleTouchIcon: log.svg
-  visibilitychange: true
+  logo: /img/logo.svg
+  icon16: /img/logo.svg
+  icon32: /img/logo.svg
+  appleTouchIcon: /img/logo.svg
+  visibilitychange: false
   hidden: failure.ico
   showText: (/≧▽≦/)咦！又好了！
   hideText: (●—●)喔哟，崩溃啦！
@@ -95,14 +95,15 @@ sidebar:
 banner:
   index:
     type: video
-    bgurl: /img/video/indexCover.mp4
+    bgurl: /img/video/cloud.mp4
     # //cdn.moji.com/websrc/video/autumn20190924.mp4
     bannerTitle: 花径不曾缘客扫，<br>蓬门今始为君开。
     bannerText: Hi my new friend!
   archive:
-    type: img
-    bgurl: https://pic3.zhimg.com/v2-230b33bf409772ea9a62be47d25cf816_r.jpg
-    bannerTitle: 树深时见鹿，<br>溪午不闻钟。
+    type: video
+    bgurl: //cdn.moji.com/websrc/video/autumn20190924.mp4
+    # /img/{4B8E99AB-045D-9A54-B1D2-C51101220AA2}.jpg
+    bannerTitle: 我寻你千百度，<br>日出到日暮。
     bannerText: THE ARTICLE ARCHIVE
 
 footer:
@@ -189,7 +190,7 @@ creative_commons:
   license: by-nc-sa
   language: deed.zh
   post: true
-  clipboard: true
+  clipboard: false
 
 swup: true
 
