@@ -5,6 +5,10 @@ updated: 2022-08-04 20:11:12
 categories: 备忘录
 tags: ["备忘录"]
 cover: img/02_notebook/cover.jpg
+banner:
+    type: img
+    bgurl: /img/{989270E3-703D-1940-71AE-5E6E0F4AA84F}.jpg
+    bannerText: 
 ---
 # 做个备忘录看看先
 这是第一段
