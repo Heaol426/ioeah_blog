@@ -17,6 +17,5 @@ cover: img/02_notebook/cover.jpg
 > **看看这个** 看看这个
 
 ```  
-<div>
+div
 ```
-

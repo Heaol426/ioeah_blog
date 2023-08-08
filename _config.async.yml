@@ -217,3 +217,8 @@ notice_outdate:
   style: flat
   limit_day: 90
   position: top
+
+comment:
+  twikoo:
+    enable: true
+    envId: https://comment-db-api.vercel.app/
