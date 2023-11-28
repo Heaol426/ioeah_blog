@@ -33,7 +33,7 @@ dependencies:
     specifier: ^4.0.0
     version: 4.0.0
   hexo-renderer-marked:
-    specifier: ^6.1.1
+    specifier: ^6.0.0
     version: 6.1.1
   hexo-renderer-pug:
     specifier: ^3.0.0
@@ -45,7 +45,7 @@ dependencies:
     specifier: ^3.0.0
     version: 3.0.0
   hexo-theme-async:
-    specifier: ^2.1.8
+    specifier: ^2.0.9
     version: 2.1.8
   hexo-theme-landscape:
     specifier: ^1.0.0
