@@ -3,7 +3,7 @@ title: 上网教程 for bin姐
 date: 2023-11-28 18:09:44
 tags: 分享类
 categories: 分享类
-cover: img/04_howtonet/cover.JPG
+cover: img/04_howtonet/cover.png
 banner:
     type: img
     bgurl: /img/04_howtonet/banner.png
@@ -18,7 +18,7 @@ banner:
 ## 快速开始
 这里不放东西有点枯燥，先po一张我bin姐的美照[狗头]
 
-<img src="/img/04_howtonet/ibin.JPG" alt="bin" style="height: 400px;" />
+<img src="/img/04_howtonet/ibin.png" alt="bin" style="height: 400px;" />
 
 ### 1. 认识基本工具
 
