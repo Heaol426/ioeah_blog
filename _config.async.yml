@@ -203,8 +203,8 @@ highlight:
 # 
 categorie_card:
   enable: true
-  len: 3
-  list: ["备忘录", "记录类"]
+  len: 4
+  list: ["笔记", "随笔",“备忘”]
 
 layout:
   # 固定按钮模板
