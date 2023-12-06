@@ -225,3 +225,7 @@ comment:
   twikoo:
     enable: true
     envId: https://comment-db-api.vercel.app/
+
+webAnalytics:
+  enable: true
+  baidu: c51892059a02137300c4fd1b3969f81b

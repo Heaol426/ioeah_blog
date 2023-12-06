@@ -5,9 +5,10 @@ categories: 笔记
 tags: ["笔记"]
 cover: img/cardSelector/cover.png
 banner:
-    type: img
-    bgurl: /img/cardSelector/banner.png
+    type: video
+    bgurl: /img/video/cloud.mp4
     bannerText: 
+reward: true
 ---
 > antdv4.0 官方组件库没有一个卡片式选择器的组件，于是我尝试自己封装了一个基于a-card组件的卡片式选择器组件。使用的是阿里的[ant-design-vue4.0](https://www.antdv.com/components/overview-cn)版本组件。
 <!-- more -->
