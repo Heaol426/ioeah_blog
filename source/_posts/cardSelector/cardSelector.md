@@ -23,6 +23,52 @@ banner:
 该组件的原生是a-card组件，通过antdv的a-row及a-col组件进行布局。
 
 ### 2.2 使用
+使用组件：
+```HTML
+<template>
+    <card-selector
+        ref="cardRef" 
+        v-model:selectedCard="selectedCard" 
+        :cards="cards"
+    >
+        <template #icon="{ card }">
+            <BankOutlined/>
+        </template>
+        <template #title="{ card }">
+            {{ card }}
+        </template>
+        <template #content="{ card }">
+            <div :class="['center',{'blue-font': card == selectedCard}]">
+                {{card}}
+            </div>
+            <div class="center">
+                <a-tooltip placement="bottom">
+                    <template #title>prompt text</template>
+                    <ExclamationCircleOutlined />
+                </a-tooltip>
+            </div>
+        </template>
+    </card-selector>
+</template>
+
+<script setup lang="ts">
+import CardSelect from '#/ICardSelect/index.vue'
+import {
+    BankOutlined,
+    ExclamationCircleOutlined,
+} from '@ant-design/icons-vue'
+
+const cards = ['Card A', 'Card B', 'Card C','Card D', 'Card E', 'Card F'];
+const selectedCard = ref('Card A');
+</script>
+
+<style lang="less" scoped>
+
+.blue-font {
+    color: #0a6efa;
+}
+</style>
+```
 
 ### 详细代码实现
 ```HTML
@@ -31,22 +77,22 @@ banner:
         <a-row :gutter="[16, 8]">
             <a-col :span="6" v-for="(card, index) in props.cards" :key="index" >
                 <a-card 
-                    class="defualt-center-layout"
+                    class="center"
                     :class="{ 
                         'shadow-[0_4px_20px_-5px_rgba(0,0,0,0.35)]': card === props.selectedCard,
-                        'highlighted': card === props.selectedCard,
+                        'blue-border': card === props.selectedCard,
                     }"
                     @click="selectCard(card)"
                     hoverable
                 >
-                    <div class="card-icon defualt-center-layout">
+                    <div class="icon center">
                         <slot name="icon" :card="card"></slot>
                     </div>
-                    <div class="defualt-center-layout">
+                    <div class="center">
                         <slot name="content" :card="card"></slot>
                     </div>
                 </a-card>
-                <div class="defualt-center-layout" :class="{'highlighted-font': card === props.selectedCard}">
+                <div class="centert" :class="{'blue-font': card === props.selectedCard}">
                     <slot name="title" :card="card" ></slot>
                 </div>
             </a-col>
@@ -64,29 +110,21 @@ const props = defineProps<Props>();
 
 const emit = defineEmits(['update:selectedCard']);
 
-watch(
-    () => props.selectedCard,
-    (newVal) => {
-        console.log(newVal);
-    }
-);
-
 function selectCard(card: string) {
     emit('update:selectedCard', card);
 }
-
 </script>
 
 <style lang="less" scoped>
 
-.defualt-center-layout {
-    display: flex;
-    flex-direction: column;
+.center {
     justify-content: center;
+    display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
-.card-icon {
+.icon {
     font-size: 30px;
 }
 
@@ -94,11 +132,11 @@ function selectCard(card: string) {
     padding: 12px;
 }
 
-.highlighted {
+.blue-border {
     border: 1px solid #0a6efa;
 }
 
-.highlighted-font {
+.blue-font {
     color: #0a6efa;
 }
 </style>
