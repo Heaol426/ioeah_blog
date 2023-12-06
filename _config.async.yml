@@ -3,10 +3,10 @@ theme:
   default: style-light #style-light：亮色模式 ; style-dark：暗色模式 ; auto：跟随系统选择
 
 favicon:
-  logo: /img/logo.svg
-  icon16: /img/logo.svg
-  icon32: /img/logo.svg
-  appleTouchIcon: /img/logo.svg
+  logo: /img/common/logo.svg
+  icon16: /img/common/logo.svg
+  icon32: /img/common/logo.svg
+  appleTouchIcon: /img/common/logo.svg
   visibilitychange: false
   hidden: failure.ico
   showText: (/≧▽≦/)咦！又好了！
@@ -40,7 +40,7 @@ user:
   last_name: 云深
   email: heaol426@163.com
   domain: www.ioeah.top
-  avatar: /img/heao.jpg
+  avatar: /img/common/heao.jpg
   describe: 我们都生活在阴沟里，但仍有人仰望星空。
   ruleText: 暂不接受个人博客以外的友链申请，确保您的网站内容积极向上，文章至少30篇，原创70%以上，部署HTTPS。
 
@@ -203,8 +203,8 @@ highlight:
 # 
 categorie_card:
   enable: true
-  len: 4
-  list: ["笔记", "随笔",“备忘”]
+  len: 2
+  list: ["笔记", "随笔"]
 
 layout:
   # 固定按钮模板
@@ -218,7 +218,7 @@ layout:
 notice_outdate:
   enable: true
   style: flat
-  limit_day: 90
+  limit_day: 180
   position: top
 
 comment:
@@ -229,3 +229,13 @@ comment:
 webAnalytics:
   enable: true
   baidu: c51892059a02137300c4fd1b3969f81b
+
+#打赏
+reward:
+  enable: true
+  comment: 豪绅的钱如数奉还，百姓的钱三七分帐
+  methods:
+    - name: 支付宝打赏
+      path: /img/pay/alipay.png
+    - name: 微信打赏
+      path: /img/pay/wechatpay.png

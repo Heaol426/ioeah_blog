@@ -1,9 +1,9 @@
 ---
-title: 卡片式选择器组件 -vue3 -ts -antdv4.0 
+title: 卡片式选择器组件-antdv
 date: 2023-12-06 18:59:44
 categories: 笔记
 tags: ["笔记"]
-cover: img/cardSelector/cover.png
+cover: date
 banner:
     type: video
     bgurl: /img/video/cloud.mp4
@@ -12,20 +12,20 @@ reward: true
 ---
 > antdv4.0 官方组件库没有一个卡片式选择器的组件，于是我尝试自己封装了一个基于a-card组件的卡片式选择器组件。使用的是阿里的[ant-design-vue4.0](https://www.antdv.com/components/overview-cn)版本组件。
 <!-- more -->
-### 1. 需求
+## 1. 需求
 
 一个基于antdv4.0组件库a-card组件设计的卡片式的选择器组件，可以用于选择一个卡片选项，并且可以自定义选项内容包括图标和文字。antdv 组件详细使用查看[antdv官方文档](https://www.antdv.com/components/overview-cn)。
 
-### 2. 设计
+## 2. 设计
 
-#### 2.1 组件说明
+### 2.1 组件说明
 这是一个卡片式选择器组件，可以通过单击选中一个卡片，被选中卡片会添加阴影及高亮效果。
 
 该组件的原生是a-card组件，通过antdv的a-row及a-col组件进行布局。
 
-#### 2.2 使用
+### 2.2 使用
 
-#### 详细代码实现
+### 详细代码实现
 ```HTML
 <template>
     <div>
