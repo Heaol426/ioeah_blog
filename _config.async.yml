@@ -159,12 +159,19 @@ icons:
   double_arrows: icon-angle-double-down
   copy: icon-copy
 
+# 文章目录
 toc:
   enable: true
   list_number: true
+  post_title: false
   max_depth: 3
   min_depth: 1
 
+# 图片懒加载
+lazyload:
+  enable: true
+
+# 上下篇文章
 post_pagination:
   enable: true
   type: large # large || small
