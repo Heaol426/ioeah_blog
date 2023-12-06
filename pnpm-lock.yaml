@@ -33,8 +33,8 @@ dependencies:
     specifier: ^4.0.0
     version: 4.0.0
   hexo-renderer-marked:
-    specifier: ^6.0.0
-    version: 6.1.1
+    specifier: ^6.2.0
+    version: 6.2.0
   hexo-renderer-pug:
     specifier: ^3.0.0
     version: 3.0.0
@@ -1753,8 +1753,8 @@ packages:
       - supports-color
     dev: false
 
-  /hexo-renderer-marked@6.1.1:
-    resolution: {integrity: sha512-vllmRFwl9A1NP/llQW2TbDnyvqaQKgktxXw7c+tK7XVQJmfIUnl32dr8M4jRYqYe5m9972eYm09kBXV8rBtA/A==}
+  /hexo-renderer-marked@6.2.0:
+    resolution: {integrity: sha512-/TwgQCAmqYIyxONzrgqokw0n8rU6W/lCtgbjhWcMoZxhwTaQCYpzaO0+sdu+PKXf9BL4910pg+xAbeFaqqIIrA==}
     engines: {node: '>=14'}
     dependencies:
       dompurify: 3.0.6
