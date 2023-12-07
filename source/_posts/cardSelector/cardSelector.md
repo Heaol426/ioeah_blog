@@ -52,14 +52,15 @@ banner:
 </template>
 
 <script setup lang="ts">
-import CardSelect from '#/ICardSelect/index.vue'
+import CardSelector from '#/CardSelector/index.vue'// 卡片式选择器组件所在的路径
+import { ref } from 'vue'
 import {
     BankOutlined,
     ExclamationCircleOutlined,
 } from '@ant-design/icons-vue'
 
 const cards = ['Card A', 'Card B', 'Card C','Card D', 'Card E', 'Card F'];
-const selectedCard = ref('Card A');
+const selectedCard = ref();
 </script>
 
 <style lang="less" scoped>
@@ -69,6 +70,9 @@ const selectedCard = ref('Card A');
 }
 </style>
 ```
+
+### 2.3 组件接口
+
 
 ### 详细代码实现
 ```HTML
