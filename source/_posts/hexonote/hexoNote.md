@@ -10,5 +10,12 @@ tags: 笔记
 ## 安装Hexo
 ` pnpm install -g hexo-cli `
 
-## 
+## 新建post
+` hexo new post <title> `
+
+## 新建草稿
+` hexo new draft <title> `
+
+
+
 
