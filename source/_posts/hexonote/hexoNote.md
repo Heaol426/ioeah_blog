@@ -2,6 +2,7 @@
 title: Hexo笔记
 date: 2023-12-02 21:43:46
 tags: 笔记
+cover: date
 ---
 # Hexo 使用笔记
 ## 什么是Hexo
