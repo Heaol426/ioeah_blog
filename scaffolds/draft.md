@@ -1,4 +1,11 @@
 ---
 title: {{ title }}
-tags:
+cover: date
+banner:
+    type: image
+    bgurl: ""
+    bannerText: ""
+date: {{ date }}
+tags: [""]
+categories: ""
 ---
