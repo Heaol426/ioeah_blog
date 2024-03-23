@@ -2,7 +2,7 @@
 title: {{ title }}
 cover: date
 banner:
-    type: image
+    type: img
     bgurl: ""
     bannerText: ""
 date: {{ date }}
