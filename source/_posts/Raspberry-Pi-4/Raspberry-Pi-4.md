@@ -80,8 +80,8 @@ umount boot root
 将SD卡插入树莓派，连接网络，通上电源。
 
 ### 10.使用SSH连接到路由器提供给树莓派主板的IP地址。
-- 通过默认用户登录：默认用户名为 ==alarm== ，默认密码也为 ==alarm== 。 
-- root用户默认密码为 ==root== 。
+- 通过默认用户登录：默认用户名为 _alarm_ ，默认密码也为 _alarm_ 。 
+- root用户默认密码为 _root_ 。
 ### 11. 初始化 pacman 密钥环并填充 Arch Linux ARM 软件包签名密钥：
 ```bash
 pacman-key --init
