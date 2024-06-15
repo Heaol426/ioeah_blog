@@ -6,6 +6,11 @@ banner:
     bgurl: ""
     bannerText: ""
 date: {{ date }}
+description:
 tags: [""]
 categories: ""
+keywords:
+author: 云深不知雀
+comments: true
+single_column: true
 ---

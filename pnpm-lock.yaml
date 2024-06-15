@@ -45,8 +45,8 @@ dependencies:
     specifier: ^3.0.0
     version: 3.0.0
   hexo-theme-async:
-    specifier: ^2.1.10
-    version: 2.1.10
+    specifier: ^2.0.9
+    version: 2.0.9
   hexo-theme-landscape:
     specifier: ^1.0.0
     version: 1.0.0
@@ -1805,7 +1805,7 @@ packages:
     dev: false
 
   /hexo-theme-async@2.1.10:
-    resolution: {integrity: sha512-BXSBRvT0r9iy2MHemckWJkZjxn5SX4eRSO3MSjBabR6o8TcJ1I5BVDxCF3zzRTZjhoNJDam2s7+1ayob2laDNg==, tarball: https://registry.npmmirror.com/hexo-theme-async/-/hexo-theme-async-2.1.10.tgz}
+    resolution: {integrity: sha512-BXSBRvT0r9iy2MHemckWJkZjxn5SX4eRSO3MSjBabR6o8TcJ1I5BVDxCF3zzRTZjhoNJDam2s7+1ayob2laDNg==}
     dev: false
 
   /hexo-theme-landscape@1.0.0:

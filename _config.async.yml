@@ -85,7 +85,6 @@ sidebar:
     - icon: icon-weibo
       url: https://weibo.com/u/5848971319
       name: Weibo
-
   typedTextPrefix:
   typedText: ["I'm a wayfarer", "人生如逆旅，我亦是行人"]
   info: # 个人信息
@@ -164,7 +163,7 @@ toc:
   enable: true
   list_number: true
   post_title: false
-  max_depth: 3
+  max_depth: 4
   min_depth: 1
 
 # 图片懒加载
@@ -205,7 +204,7 @@ swup: true
 
 highlight:
   title: mac
-  height_limit: 200
+  height_limit: 2000
 
 # 
 categorie_card:
