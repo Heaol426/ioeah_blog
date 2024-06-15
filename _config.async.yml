@@ -246,3 +246,9 @@ reward:
       path: /img/pay/alipay.png
     - name: 微信打赏
       path: /img/pay/wechatpay.png
+
+# 字数统计
+wordcount:
+  enable: true
+  count: true
+  time: true

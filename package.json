@@ -6,8 +6,8 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server",
-    "dev": "hexo server --draft"
+    "server": "hexo server -p 5000",
+    "dev": "hexo server --draft -p 5000"
   },
   "hexo": {
     "version": "6.3.0"
@@ -27,6 +27,7 @@
     "hexo-renderer-stylus": "^3.0.0",
     "hexo-server": "^3.0.0",
     "hexo-theme-async": "^2.1.10",
-    "hexo-theme-landscape": "^1.0.0"
+    "hexo-theme-landscape": "^1.0.0",
+    "hexo-wordcount": "^6.0.1"
   }
 }
