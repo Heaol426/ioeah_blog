@@ -65,8 +65,8 @@ top_bars:
     url: /comments/
   - title: 友链
     url: /links/
-  - title: 关于
-    url: /about/
+  # - title: 关于
+  #   url: /about/
 
 sidebar:
   social: # 社交地址
