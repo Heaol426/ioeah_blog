@@ -133,5 +133,6 @@ image_minifier:
   progressive: false
 
   marked:
+    sanitize: false
   prependRoot: true
   postAsset: true
