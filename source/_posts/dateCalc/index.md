@@ -59,7 +59,7 @@ banner:
                     <option value="-1">往前</option>   
                 </select>
                 <input type="number" class="y" id="dnum">
-                <select id="dtype" onchange="typesel(this)">
+                <select id="dtype" onchange="sayHello()">
                     <option value="days">日</option>
                     <option value="weeks">星期</option>
                     <option value="months">月</option>  
@@ -146,3 +146,5 @@ input, select {
         document.getElementById('result1').innerHTML = result;
     }
 </script>
+
+<script src="/js/dateCalc/func.js"></script>
